@@ -1,0 +1,11 @@
+{
+  "degraded_route": "route_b",
+  "degraded_method": "UPI",
+  "window_start": "2026-08-10 00:00:00",
+  "window_end": "2026-08-15 00:00:00",
+  "target_failure_rate": 0.45,
+  "failure_code": "bank_timeout",
+  "affected_row_count": 138,
+  "observed_segment_failure_rate": 0.4565,
+  "observed_rest_failure_rate": 0.0498
+}

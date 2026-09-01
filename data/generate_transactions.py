@@ -17,7 +17,7 @@ from faker import Faker
 fake = Faker("en_IN")  # Indian locale — names, phone formats etc. match context
 random.seed(42)         # fixed seed so results are reproducible for you and for judges
 
-NUM_TRANSACTIONS = 5000
+NUM_TRANSACTIONS = 10000
 BASE_FAILURE_RATE = 0.05  # 5% of all transactions fail, evenly, on this baseline
 
 PAYMENT_METHODS = ["UPI", "credit_card", "debit_card", "netbanking", "wallet"]
