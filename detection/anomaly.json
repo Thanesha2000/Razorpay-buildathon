@@ -1,0 +1,15 @@
+{
+  "segment": {
+    "payment_route": "route_b",
+    "payment_method": "UPI"
+  },
+  "window_start": "2026-08-10",
+  "window_end": "2026-08-14",
+  "segment_failure_rate": 0.1663,
+  "baseline_failure_rate": 0.0554,
+  "deviation_multiplier": 3.0,
+  "affected_transaction_count": 499,
+  "failed_transaction_count": 83,
+  "revenue_at_risk": 725027.23,
+  "confidence": "medium"
+}
